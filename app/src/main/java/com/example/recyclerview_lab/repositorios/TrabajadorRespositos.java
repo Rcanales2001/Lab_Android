@@ -42,5 +42,8 @@ public class TrabajadorRespositos {
     public boolean AddTrabajador(Trabajador mainObject) {
         return this.mainList.add(mainObject);
     }
+    public boolean removeTrabajador(Trabajador trabajador) {
+        return this.mainList.remove(trabajador);
+    }
 
 }
